@@ -2,7 +2,7 @@
 Some scripts to postprocess the vasp data
 
 ## trajectory.py, movie.xyz, rdf_example.py and rdf.png
-movie.xyz is the trajectory file from XDATCAR.  
+movie.xyz is the trajectory file from MD(Molecular Dynamics) calculations .  
 trajectory.py is the python script to calculate and draw the pair correlation function of two selected elements.  
 The rdf_example.py is to demonstrate the usage of the trajectory.py.  
 Only support orthogonal cells.  
