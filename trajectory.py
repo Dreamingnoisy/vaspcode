@@ -2,7 +2,6 @@ import math,matplotlib.pyplot as plt
 
 def distance(a,b,cell): #calculate the distance two atoms under periodic boundary condition
     #Assume the cell is orthogonal
-    #We can use direct coordinates to calculate the distance
     dx = abs(a[0] - b[0])
     dx = min(dx, abs(cell[0] - dx))
 
