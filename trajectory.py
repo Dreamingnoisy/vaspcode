@@ -38,7 +38,7 @@ class Trajectory:
         '''
         filename  : path to the trajectory file, .xyz form required\n
         cell      : lattice length of 3 axis of the cell\n
-        z_top and z_bot are set to handle the occasion that a volume between z_top and z_bot \n
+        z_top and z_bot are set to handle the occasion that a volume between z_top and z_bot
         need to be selected.\n
         z_top     : average vertical coordinate for upper interface\n
         z_bot     : average vertical coordinate for lower interface\n
@@ -72,7 +72,7 @@ class Trajectory:
 
         self.n_atoms = int(self.data[0].split()[0])  #read the total number of atoms
         l_image = self.n_atoms + 2            #length of an image
-        n_steps = len(self.data) // l_image   # read the number of steps
+        n_steps = len(self.data) // l_image   #read the number of steps
         self.get_atom_list()                  #generate the list of atoms
 
         self.coordinates = [] 
@@ -185,7 +185,7 @@ class Trajectory:
             g_of_r_perimage.append(g_of_r)
 
         self.g_of_r =[0]*self.resolution
-        for image in g_of_r_perimage:    #ensomble average, sum the g_of_r_perimage and normalize by the factor of
+        for image in g_of_r_perimage:    #ensemble average, sum the g_of_r_perimage and normalize it by the factor of
             for i in range(len(image)):  #the length of the images read from self.coordinates 
                 self.g_of_r[i] += image[i]/self.n_image
 
