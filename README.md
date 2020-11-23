@@ -1,5 +1,5 @@
 # vaspcode
-Some scripts to postprocess the vasp data
+Some scripts to postprocess the vasp data  
 IF YOU HAVE ANY QUESTIONS, FEEL FREE TO LEAVE YOUR COMMENTS!
 
 ## trajectory.py, movie.xyz, rdf_example.py and rdf.png
