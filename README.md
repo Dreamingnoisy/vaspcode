@@ -16,9 +16,9 @@ The rdf.png is the image of g(r), it may seem different because the movie.xyz is
 Maybe I will use Numpy package to write a more concise script, LOL!  
 
 ## XYZ2Data.cpp provided by DingChangJie
-A Linux Shell program converting an .xyz file to Lammps-supported data file format.
-(1)To build, simply run build commands like " g++ XYZ2Data.cpp -o XYZ2Data.exe ". A pre-built executable "XYZ2Data.exe" (following the same suffix rule as in Windows) is also provided here.
-(2)Syntax: ./XYZ2Data.exe -i xyz_file_location -o data_file_location -d data_description
-All of the three arguments must not be omitted.
-An example input "Example.xyz" and the resulting data file "Example_converted" are attached. Run the following command to check:
-./XYZ2Data.exe -i Example.xyz -o Example_converted -d DemoFile
+A Linux Shell program converting an .xyz file to Lammps-supported data file format.  
+(1)To build, simply run build commands like " g++ XYZ2Data.cpp -o XYZ2Data.exe ". A pre-built executable "XYZ2Data.exe" (following the same suffix rule as in Windows) is also provided here.  
+(2)Syntax: ./XYZ2Data.exe -i xyz_file_location -o data_file_location -d data_description  
+All of the three arguments must not be omitted.  
+An example input "Example.xyz" and the resulting data file "Example_converted" are attached. Run the following command to check:  
+./XYZ2Data.exe -i Example.xyz -o Example_converted -d DemoFile  
